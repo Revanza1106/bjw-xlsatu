@@ -82,10 +82,9 @@ p{ margin:0 0 1em; }
 }
 .header-inner{ display:flex; align-items:center; justify-content:space-between; padding: 14px 20px; }
 .brand{ display:flex; align-items:center; gap:10px; font-family: var(--font-display); font-weight:700; }
-.brand-mark{
-  width:38px; height:38px; border-radius:10px;
-  background: linear-gradient(135deg, var(--blue), var(--green));
-  display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800;
+.brand-img{
+  width:44px; height:44px; border-radius:10px; object-fit:contain;
+  display:block;
 }
 .brand-text{ display:flex; flex-direction:column; line-height:1.1; }
 .brand-text small{ font-family: var(--font-body); font-weight:500; color: var(--ink-soft); font-size:.72rem; }
@@ -158,6 +157,24 @@ p{ margin:0 0 1em; }
 .trust-inner{ display:flex; flex-wrap:wrap; gap:24px; justify-content:center; padding:22px 0; }
 .trust-item{ display:flex; align-items:center; gap:10px; font-size:.88rem; font-weight:600; color: var(--navy); }
 .trust-item .ic{ width:20px; height:20px; flex:none; color: var(--green); }
+
+/* Footer Copyright Logos */
+.copyright-logos{
+  display:flex; align-items:center; gap:8px;
+  opacity:0.6; transition: opacity .2s ease;
+}
+.copyright-logos:hover{ opacity:1; }
+.copyright-label{
+  font-family: var(--font-mono); font-size:0.7rem; text-transform:uppercase;
+  letter-spacing:0.04em; margin-right:4px;
+}
+.copyright-logo{
+  height:20px; width:auto; border-radius:4px;
+  filter: grayscale(100%) brightness(1.2); mix-blend-mode: luminosity;
+}
+.copyright-logo--xl{
+  background:#fff; padding:2px 4px; border-radius:3px;
+}
 
 /* ---------- Package cards ---------- */
 .pkg-grid{ display:grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap:22px; }
