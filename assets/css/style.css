@@ -336,7 +336,8 @@ p{ margin:0 0 1em; }
   .gallery-grid{ grid-template-columns: repeat(2, 1fr); }
   .promo-strip{ flex-direction:column; align-items:stretch; text-align:center; }
   .promo-strip .btn{ width:100%; }
-  .footer-bottom{ flex-direction:column; text-align:center; }
+  .footer-bottom{ flex-direction:column; text-align:center; gap:12px; }
+  .copyright-logos{ justify-content:center; }
 }
 
 /* Tombol WhatsApp mengambang: hormati safe-area di iPhone (notch/home indicator) */
