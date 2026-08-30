@@ -306,7 +306,7 @@ p{ margin:0 0 1em; }
   }
   .main-nav.is-open{ transform: translateX(0); visibility:visible; transition: transform .25s ease; }
   .main-nav a{ padding:16px 4px; border-bottom:1px solid var(--line); font-size:1rem; }
-  .main-nav .nav-cta{ display:flex; margin-top:20px; border-bottom:none; }
+  .main-nav .nav-cta{ display:flex; margin-top:20px; border-bottom:none; color:#fff; }
 
   .nav-close{
     display:flex; align-items:center; justify-content:center;
