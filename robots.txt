@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://TODO-ISI-DOMAIN-ANDA.id/sitemap.xml
+Sitemap: https://xlsatu-bjwifi.id/sitemap.xml
